@@ -1,0 +1,134 @@
+/* ------------------------------------------------------------- */
+/* ############# Responsive Web Design - Media Queries #############  */
+/* ------------------------------------------------------------- */
+
+
+/* ##################### 1201px to more ####################### */
+
+
+/* ##################### 1025px to 1200px ####################### */
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+.navbar
+{
+    grid-template-columns: 15rem 3rem 4rem 4rem 3rem 4rem 4rem 5rem 4rem 6rem 8rem;
+}
+.cover_image 
+{
+    width: 100%;
+    height: 25rem;
+}
+.head_text {
+    line-height: 4.7rem;
+    letter-spacing: 2px;
+    margin-top:0rem;
+}
+.head2_img {
+    padding-left: 4rem;
+}
+.head2_img img {
+    height: 223px;
+    width: 26rem;
+}
+.head2_text {
+    grid-template-rows: 7rem;
+    padding-top: 3rem;
+    margin: 1rem;
+    padding-right: 2rem;
+}
+.head2_img_text {
+  width: 100%;
+}
+.holder {
+    width: 100%;
+}
+.card {
+   justify-content: space-around;
+    width: 300px;
+}
+.card_holder {
+    grid-template-columns: 20rem 20rem 20rem;
+    width: 100%;
+    padding: 0rem;
+    margin: 2rem;
+}
+.white_card_holder {
+    width: 100%;
+}
+.head_container {
+    width: 100%;
+}
+.white_main_head
+ {
+    margin: 2.2rem; 
+    padding-left: 1rem;
+    width: 160%;
+}
+
+.white_text_head {
+    padding-right: 5rem;
+}
+
+.card_wrapper {
+    width: 310px;
+    height: 347px;
+}
+.list_card {
+ 
+    grid-template-columns: 20rem 20rem 20rem;
+   
+}
+.guide_title {
+    padding: 17px;
+    margin-top: 22px;
+}
+.textwhite a {
+    padding: 0.2rem 10px;
+}
+.footer_text {
+
+    margin-left: 1rem;
+}
+.footer_text1 {
+
+    margin-left: 1rem;
+}
+.footer_top {
+
+    right: 0rem;
+    width: 517px;
+    height: 480px;
+    margin-top: 4rem;
+}
+
+}
+
+
+
+
+
+/* ##################### 769px to 1024px ####################### */
+
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+
+
+
+/* ##################### 481px to 768px ####################### */
+
+@media (min-width: 481px) and (max-width: 768px) {}
+
+
+
+/* ##################### 320px to 480px ####################### */
+
+@media (min-width: 320px) and (max-width: 480px) {}
+
+
+
+/* ##################### 280px to 321px ####################### */
+
+@media (max-width: 321px) {}
+
+
+/* --------------------------------------- */
