@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    color:#7a3e6d;
+}
+
+body {
+    background-color: #FED9ED;
+
+}
+
+.container {
+   
+    max-width: 370px;
+    margin: auto;
+    position: relative;
+    top:8rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    gap: 2rem;
+    background-color: #BB9CC0;
+    border-radius: 8px;
+    box-shadow: 50px 35px 35px rgba(23, 23, 23, 0.786);
+    transform: scaleY(1.2)skew(3deg)rotate(3deg);
+}
+
+
+/* heading */
+
+.heading {
+    /* border: 2px solid green; */
+}
+
+.heading h1 {
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+/* inputBox */
+
+.inputBox {
+    /* border: 2px solid rgb(0, 81, 255); */
+    display: flex;
+    gap: 3rem;
+}
+
+.inputBox p {
+    font-size: 1.5rem;
+   
+
+}
+
+.inputdegree {
+    /* border: 2px solid red; */
+    width: 70%;
+    margin-top: 1rem;
+}
+
+.inputdegree input {
+    outline: none;
+    /* border: 2px solid rgb(172, 172, 172); */
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 2rem;
+    width: 100%;
+    padding: 5px 2px;
+}
+
+
+.inputdegree {
+    font-size: 2rem;
+}
+
+.choice {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+select {
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+/* result */
+
+.result {
+    /* border: 2px solid rgb(255, 0, 251); */
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.result p {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.displayBox {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    font-size: 2rem;
+}
+
+/* convertBtn */
+
+.convertBtn {
+    /* border: 2px solid rgb(0, 255, 136); */
+    width: 100%;
+}
+
+.convertBtn .btn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    width: 100%;
+    background-color:#E7BCDE;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.convertBtn .btn:hover {
+    opacity: 0.8;
+    opacity: 0.8;
+    cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 768px)
+{
+    .container
+    {
+        transform: scaleY(1.2)skew(3deg)rotate(3deg)scale(0.8);
+        top:8rem;
+    }
+}
+@media (min-width:240px) and (max-width: 320px)
+{
+    .container
+    {
+        transform: scaleY(1.2)skew(3deg)rotate(3deg)scale(0.7);
+    }
+}
